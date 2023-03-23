@@ -42,10 +42,10 @@ public class Principal {
 		area=esfera.calcularArea(raio);
 		
 		System.out.printf("A area da esfera eh: %.2f", area );
-		System.out.printf("cm²");
+		System.out.printf("cmÂ²");
 		System.out.println();
 		System.out.printf("O volume da esfera eh: %.2f", volume);
-		System.out.printf("cm³");
+		System.out.printf("cmÂ³");
 		
 		break;
 		
@@ -85,10 +85,10 @@ public class Principal {
 			
 			
 			   System.out.printf("A area da esfera eh: %.2f", areaCilindro );
-				System.out.printf("cm²");
+				System.out.printf("cmÂ²");
 				System.out.println();
 				System.out.printf("O volume da esfera eh: %.2f", volCilindro);
-				System.out.printf("cm³");
+				System.out.printf("cmÂ³");
 			
 		break;
 		case 4:
@@ -103,10 +103,10 @@ public class Principal {
 			
 			
 			System.out.printf("A area do Cone eh: %.2f", areaCone );
-			System.out.printf("cm²");
+			System.out.printf("cmÂ²");
 			System.out.println();
 			System.out.printf("O volume do Cone eh: %.2f", volCone);
-			System.out.printf("cm³");
+			System.out.printf("cmÂ³");
 
 			break;
 			
@@ -121,10 +121,14 @@ public class Principal {
 			volPiramide=piramide.CalcVolPiramide(lado, altura);
 			
 			System.out.printf("A area do Cone eh: %.2f", areaPiramide );
-			System.out.printf("cm²");
+			System.out.printf("cmÂ²");
 			System.out.println();
 			System.out.printf("O volume do Cone eh: %.2f", volPiramide);
-			System.out.printf("cm³");
+			System.out.printf("cmÂ³");
+				break;
+				
+			default:
+				System.out.printf("Opcao Invalida");
 				
 		entrada.close();
 		
